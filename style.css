@@ -1,0 +1,403 @@
+@font-face {
+  font-family: Village;
+  src: url(Village.ttf);
+}
+
+@font-face {
+  font-family: HoneyP;
+  src: url(HoneyP.ttf);
+}
+
+@font-face {
+  font-family: Anton;
+  src: url(Anton-Regular.ttf);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #DDE6ED;
+}
+
+nav {
+    position: fixed;
+    background-color: #DDE6ED;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav > span > img {
+    height: 60px;
+    padding: 0px 20px;
+}
+
+nav > span > p {
+    padding: 0px 0px 0px 5px;
+    font-size: 50px;
+    font-family: Village;
+    color: #27374D;
+}
+
+nav > span {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 24px;
+    font-family: HoneyP;
+    font-weight: bold;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #27374D;
+}
+
+header {
+    text-align: center;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("New\ Jeans\ OMG\ Landscape\ Background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header h1 {
+    font-family: Village;
+    font-size: 120px;
+    text-shadow: 4px 2px 2px #DDE6ED;
+    font-weight: normal;
+    color: #27374D;
+    margin-top: 300px;
+    animation: fade-in 2s ease-in-out;
+}
+  
+header p {
+    font-size: 25px;
+    margin-top: -90px;
+    text-shadow: 2px 2px 2px #27374D;
+    font-family: HoneyP;
+    color: #DDE6ED;
+    animation: fade-in 2s ease-in-out;
+}  
+
+#member-photos {
+  margin-bottom: 50px;
+}
+
+#member-photos h2 {
+  margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Anton;
+    font-size: 30px;
+    color: #27374D;
+}
+   
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.grid-container img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.grid-container p {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: bold;
+  font-family: HoneyP;
+  color: #27374D;
+}
+
+#newjeans-facts {
+  text-align: center;
+  font-size: 24px;
+}
+
+section > h2 {
+  margin-bottom: 25px;
+}
+
+#newjeans-facts .flex-container ul {
+  list-style: decimal;
+}
+
+#newjeans-facts .flex-container ul li {
+  text-align: justify;
+  margin: 25px 100px 25px 65px;
+  font-family: 'Times New Roman';
+  color: #27374D;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 0px 250px;
+}
+
+.grid-container-2 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.grid-container-2 img:hover {
+  opacity: 0.7;
+}
+
+#types-1, #types-4 {
+  grid-column: span 2;
+}
+
+#types-2, #types-3 {
+  grid-row: span 2;
+}
+
+#section-video {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#section-video > h2 {
+  margin-bottom: 50px;
+}
+
+#section-video .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#section-video .video-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #27374D;
+  padding: 10px 0 30px;
+  font-family: HoneyP;
+}
+
+#form-section h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #DDE6ED;
+    margin-bottom: 50px;
+}
+
+#form-section form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+#birthdate {
+  padding: 4px;
+  border-radius: 4px; 
+}
+
+button {
+  padding: 10px 10px;
+  background-color: #DDE6ED;
+  color: #27374D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #526D82;
+}
+
+button:active {
+  background-color: #526D82;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 1px;
+}
+
+input[type="file"] {
+  margin: 5px 0px 5px 0;
+}
+
+footer {
+    font-size: 10px;
+    color: white;
+    background-color: #27374D;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav > span > p {
+    font-size: 25px;
+  }
+
+  nav > ul > li {
+    font-size: 20px;
+  }
+
+  header {
+    height: 300px;
+  } 
+
+  header h1 {
+    font-size: 50px;
+    margin: -1px 0px 0px 0px;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin: -1px 0px 0px 0px;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  #member-photos h2 {
+    margin: 0px 30px;
+  }
+
+  #newjeans-facts h2 {
+    margin: 0px 20px; 
+  }
+
+  #newjeans-facts .flex-container ul li {
+    margin: 25px 50px 25px 20px;
+    font-size: 15px;
+  }
+
+  #photo-1 img,
+  #photo-2 img,
+  #photo-3 img,
+  #photo-4 img,
+  #photo-5 img {
+    width: 100%;
+  }
+  
+  .grid-container-2 {
+    grid-template-columns: auto;
+    width: 80%;
+    margin: 0px 0px 0px 40px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  }
+
+  figure img {
+    height: 100%;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 200px;
+  }
+  
+  #form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  #form-section fieldset {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  input[type="file"] {
+    width: 50%;
+  }
+
+  input[type="radio"] {
+    width: 5%;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+  }
