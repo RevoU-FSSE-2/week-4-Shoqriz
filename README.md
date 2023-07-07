@@ -17,3 +17,13 @@ This is the [link](https://shoqrizidan.site/) to my website after I deployed it 
 ![Niagahoster site](Documentation%20Photo/1.png)
 
 #### Step 2 : Login then put and search for the domain name you want
+
+![Niagahoster site](Documentation%20Photo/2.png)
+
+#### Step 3 : After getting the domain name you want, then we will buy it.
+
+![Niagahoster site](Documentation%20Photo/3.png)
+
+#### Step 4 : That's it, we've got the domain we want
+
+![Niagahoster site](Documentation%20Photo/4.png)
