@@ -12,12 +12,8 @@ I will write documentation about deployment and everything else.
 
 This is the [link](https://shoqrizidan.site/) to my website after I deployed it to my domain.
 
-#### Step 1
-
-First, you must buy the domain. I am using [Niagahoster](https://www.niagahoster.co.id/).
+#### Step 1 : First, you must buy the domain. I am using [Niagahoster](https://www.niagahoster.co.id/).
 
 ![Niagahoster site](Documentation%20Photo/1.png)
 
-### Step 2
-
-Login then put and search for the domain name you want
+#### Step 2 : Login then put and search for the domain name you want
