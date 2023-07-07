@@ -16,4 +16,5 @@ This is the [link](https://shoqrizidan.site/) to my website after I deployed it 
 
 First, you must buy the domain. I am using [Niagahoster](https://www.niagahoster.co.id/).
 
-![Niagahoster site](1.png)
+![Niagahoster site](Documentation%20Photo/1.png)
+
