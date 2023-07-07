@@ -27,3 +27,23 @@ This is the [link](https://shoqrizidan.site/) to my website after I deployed it 
 #### Step 4 : That's it, we've got the domain we want
 
 ![Niagahoster site](Documentation%20Photo/4.png)
+
+### Deploy Your Website in Netlify
+#### Next we will deploy our website to Netlify
+#### Step 1 : Go to the [Netlify](netlify.com) website and login
+
+![Netlify](Documentation%20Photo/5.png)
+
+#### Step 2 : Add our website - Select "Import an existing project"
+
+![Netlify](Documentation%20Photo/6.png)
+
+#### Step 3 : Choose Repository from Github
+
+![Netlify](Documentation%20Photo/7.png)
+
+#### Step 4 : Pick an Owner, Branch Main, and Deploy Site
+
+#### Step 5 : After that you will get a random website name, don't worry, you can change it.
+
+the way is you go to site configuration and select rename site
