@@ -18,3 +18,6 @@ First, you must buy the domain. I am using [Niagahoster](https://www.niagahoster
 
 ![Niagahoster site](Documentation%20Photo/1.png)
 
+### Step 2
+
+Login then put and search for the domain name you want
